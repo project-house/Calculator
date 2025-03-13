@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #FDF5E6, #B8F3D7);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.cal{
+    max-width: 350px;
+    background-color: #FDF5E6;
+    /* padding: 20px; */
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 6px 6px rgba(0, 0, 0, 1);
+}
+
+#result{
+    width: 100%;
+    padding: 1.5rem;
+    text-align: right;
+    padding-bottom: 10px;
+    padding-top: 4rem;
+    font-size: xx-large;
+    font-weight: 800;
+    border: none;
+    background-color: #FDF5E6;
+    border-radius: 10px;
+}
+
+.btns{
+    padding: 15px;
+    padding-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    background-color: #B8F3D7;
+    border-radius: 10px;
+}
+
+button{
+    height: 4.5rem;
+    box-shadow: 1px 1px;
+    border-radius: 10px;
+    background-color: #FDF5E6;
+    font-size: medium;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all ease 0.05s;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+button.equals {
+    grid-column: 3/5;
+}
