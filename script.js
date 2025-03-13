@@ -12,6 +12,7 @@ for(let i=0; i<eqlBtn.length; i++){
     });
 }
 
+
 for(let i=0; i<btn.length; i++){
     btn[i].addEventListener("click", ()=>{
         const ival = btn[i].textContent;

@@ -12,7 +12,7 @@ body{
     align-items: center;
     background: linear-gradient(120deg, #FDF5E6, #B8F3D7);
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover; 
 }
 .cal{
     max-width: 350px;
@@ -55,7 +55,7 @@ button{
     font-size: medium;
     font-weight: 800;
     cursor: pointer;
-    transition: all ease 0.05s;
+    transition: all ease 0.05;
 }
 
 button:hover{
