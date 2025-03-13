@@ -64,4 +64,28 @@ button:hover{
 
 button.equals {
     grid-column: 3/5;
+    position: relative;
+    overflow: hidden;
+}
+
+.equals span{
+    position: relative;
+    z-index: 1;
+}
+.equals::before{
+    width: 0;
+    height: 0;
+    background-color: #B8F3D7;
+    content: "";
+    position: absolute;
+    top: var(--yPos);
+    left: var(--xPos);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.equals:hover::before{
+    width: 350px;
+    height: 350px;
 }
